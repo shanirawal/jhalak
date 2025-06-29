@@ -107,6 +107,15 @@ This project is [MIT](LICENSE) licensed.
 
 ---
 
+## 🧑‍🤝‍🧑 Meet the Team
+
+- **Shani Rawal** — Frontend Lead
+- **Nitin Dave** — Backend Lead
+- **Rajesh Mali** — Backend
+- **Yogeshraj Purohit** — Research & Content
+
+---
+
 ## 🙏 Acknowledgements
 - Built for a collaborative hackathon challenge (**Built.IT**)
 - Team members from **Foote**
