@@ -30,7 +30,7 @@
 ## 🖥️ Demo
 
 <!-- If deployed, add your live link below -->
-[Live Demo »](#)
+[Live Demo »](https://jhalak-404nf.netlify.app/)
 
 ---
 
