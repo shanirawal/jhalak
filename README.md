@@ -1,12 +1,110 @@
-# React + Vite
+# 🌍 Cultural Archetype Personality Quiz
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![React](https://img.shields.io/badge/React-19.1.0-61DAFB?logo=react)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-6.3.5-646CFF?logo=vite)](https://vitejs.dev/)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.1.11-38BDF8?logo=tailwindcss)](https://tailwindcss.com/)
 
-Currently, two official plugins are available:
+> "Code with culture. Learn with legacy."
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Cultural Archetype Personality Quiz** is an interactive web app that blends design, data, and storytelling to explore your personality through the lens of ancient civilizations. Take a quiz inspired by archetypes from Harappans, Vikings, Greeks, and more, and discover your modern-ancient self with beautiful visual results.
+
+---
+
+## 🚀 Features
+
+- 🔍 **Smart Questions:** Sliders & choices designed to reveal your deepest instincts
+- 🌍 **Cultural Depth:** Inspired by ancient personas and archetypes
+- 📊 **Visual Results:** Personality card & chart for your archetype
+- 🔐 **Authentication:** Secure login/signup with Firebase
+- 💎 **Modern UI:** Smooth animations, responsive design, and rich visuals
+
+---
+
+## 🖥️ Demo
+
+<!-- If deployed, add your live link below -->
+[Live Demo »](#)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React, React Router, TailwindCSS, Framer Motion, GSAP, Three.js
+- **Auth:** Firebase
+- **Build Tool:** Vite
+- **Linting:** ESLint
+
+---
+
+## 📂 Project Structure
+
+```
+├── src/
+│   ├── components/         # React components (quiz, results, auth, UI)
+│   ├── assets/             # Images and static assets
+│   ├── Firebase.jsx        # Firebase config
+│   └── App.jsx             # Main app logic
+├── constant/
+│   ├── characters.js       # Cultural archetype data
+│   └── questions.json      # Quiz questions
+├── public/                 # Static backgrounds, avatars
+├── index.html
+└── package.json
+```
+
+---
+
+## ⚡ Getting Started
+
+### Prerequisites
+- Node.js (v18+ recommended)
+- npm
+
+### Installation
+```bash
+git clone <repo-url>
+cd <repo-directory>
+npm install
+```
+
+### Running the App
+```bash
+npm run dev
+```
+Visit [http://localhost:5173](http://localhost:5173) in your browser.
+
+### Build for Production
+```bash
+npm run build
+```
+
+### Preview Production Build
+```bash
+npm run preview
+```
+
+### Linting
+```bash
+npm run lint
+```
+
+---
+
+## 🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## 📝 License
+This project is [MIT](LICENSE) licensed.
+
+---
+
+## 🙏 Acknowledgements
+- Built for a collaborative hackathon challenge
+- Inspired by world cultures, history, and the power of storytelling
