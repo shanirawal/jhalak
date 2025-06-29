@@ -13,6 +13,8 @@
 
 **Cultural Archetype Personality Quiz** is an interactive web app that blends design, data, and storytelling to explore your personality through the lens of ancient civilizations. Take a quiz inspired by archetypes from Harappans, Vikings, Greeks, and more, and discover your modern-ancient self with beautiful visual results.
 
+> **This project was built for the Built.IT Hackathon.**
+
 ---
 
 ## 🚀 Features
@@ -106,5 +108,6 @@ This project is [MIT](LICENSE) licensed.
 ---
 
 ## 🙏 Acknowledgements
-- Built for a collaborative hackathon challenge
+- Built for a collaborative hackathon challenge (**Built.IT**)
+- Team members from **Foote**
 - Inspired by world cultures, history, and the power of storytelling
