@@ -41,19 +41,25 @@ const Navbar = () => {
 
   return (
     <div className='w-full h-30 rounded-b-4xl border-b border-neutral-700  shadow-md flex items-center px-4 justify-between'>
+      
       <NavLink to="/">
         <img src={logo} alt="Logo"  className=" cursor-pointer h-[50px]  w-[50px] ml-[2rem] scale-200 " />
       </NavLink>
-      {isAuthenticated ? (
-        <div className="flex items-center gap-4 mr-8">
-          <div>
-          <button
+
+      
+      <div className='flex space-x-[0.5rem]'>
+
+      <button
               onClick={handleClick}
               className='flex gap-2 md:hidden self-center cursor-pointer bg-[#f5f5dc]  text-black font-semibold raleway pl-3 py-3 pr-5 rounded-2xl hover:bg-amber-200 hover:scale-110 transition-all duration-500'
             >
               Get Started
               <ArrowBigRight />
             </button>
+      {isAuthenticated ? (
+        <div className="flex items-center gap-4 mr-8">
+          <div>
+          
           </div>
           <div className="relative group hidden md:block">
             <img
@@ -67,9 +73,9 @@ const Navbar = () => {
           </div>
           <button
             onClick={handleLogout}
-            className=" items-center hidden md:flex gap-1 bg-neutral-800 text-white px-3 py-2 rounded-lg hover:bg-red-600 hover:scale-105 transition-all duration-200"
+            className=" items-center flex gap-1 bg-neutral-800 text-white px-3 py-2 rounded-lg hover:bg-red-600 hover:scale-105 transition-all duration-200"
           >
-            <LogOut size={18} /> Logout
+            <LogOut size={18} /> <span className='hidden md:block'>Logout</span>
           </button>
         </div>
       ) : (
@@ -80,6 +86,7 @@ const Navbar = () => {
           Sign In
         </button>
       )}
+      </div>
     </div>
   );
 };
