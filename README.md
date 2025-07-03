@@ -9,6 +9,26 @@
 
 ---
 
+## 🚀 Backend & Updates
+
+During the hackathon, we developed both the frontend and the backend.  
+However, due to some connection/debugging issues, we were only able to deploy the frontend version at submission time.
+
+After the hackathon ended, we resolved the connection issues and deployed the complete working version.
+
+Here are the links:
+
+🔗 **Frontend-Only (submitted during hackathon):** [Live Demo »](https://jhalak-404nf.netlify.app/)
+
+---
+
+🔗 **Complete Updated Site (frontend + backend):** [Live Demo »](https://jhalak-cultural-personality.netlify.app/)
+📂 **Updated Repo (Frontend):** [https://github.com/nitindavegit/Jhalak-frontend]
+📂 **Updated Repo (backend):** [https://github.com/nitindavegit/Jhalak-backend
+
+
+
+
 ## ✨ Overview
 
 **Cultural Archetype Personality Quiz** is an interactive web app that blends design, data, and storytelling to explore your personality through the lens of ancient civilizations. Take a quiz inspired by archetypes from Harappans, Vikings, Greeks, and more, and discover your modern-ancient self with beautiful visual results.
