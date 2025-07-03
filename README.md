@@ -21,8 +21,8 @@ Here are the links:
 🔗 **Frontend-Only (submitted during hackathon):** [Live Demo »](https://jhalak-404nf.netlify.app/)
 
 
-🔗 **Complete Updated Site (frontend + backend):** [Live Demo »](https://jhalak-cultural-personality.netlify.app/)
-📂 **Updated Repo (Frontend):** [https://github.com/nitindavegit/Jhalak-frontend]
+🔗 **Complete Updated Site (frontend + backend):** [Live Demo »](https://jhalak-cultural-personality.netlify.app/)<br>
+📂 **Updated Repo (Frontend):** [https://github.com/nitindavegit/Jhalak-frontend]<br>
 📂 **Updated Repo (backend):** [https://github.com/nitindavegit/Jhalak-backend
 
 
